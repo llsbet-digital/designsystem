@@ -1,0 +1,14 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens exported from Figma, built with Style Dictionary",
+  "type": "module",
+  "scripts": {
+    "build": "node config.style-dictionary.js",
+    "watch": "node --watch config.style-dictionary.js"
+  },
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^1.2.0",
+    "style-dictionary": "^4.3.0"
+  }
+}
